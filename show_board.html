@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="shortcut icon"
+		href="https://lh3.googleusercontent.com/84tzePmQs7jwxwP8eb0a8Puej-ZIctrosmeGNNcHOwhCZ847M-90VOgUwgdmpdhiy8xMmNfknX7QpOuNUtEp91_69TgVJq6ffYgIYkJSdiDMP5qQYHpiUtHJBytSJa_IKZ-2uFaeoQ=w2400"
+		type="image/vnd.microsoft.icon">
+	<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+	<title>IOT CLUB</title>
+	<style type="text/css">
+		.social-link {
+			width: 30px;
+			height: 30px;
+			border: 2px solid rgb(246, 243, 243);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: rgb(255, 254, 254);
+			border-radius: 50%;
+			transition: all 0.3s;
+			font-size: 0.9rem;
+		}
+
+		.social-link:hover,
+		.social-link:focus {
+			background: rgb(255, 255, 255);
+			text-decoration: none;
+			color: #555;
+		}
+
+		.styled-table {
+			border-collapse: collapse;
+			margin: 25px 0;
+			font-size: 0.9em;
+			font-family: sans-serif;
+			min-width: 400px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+		}
+
+		.styled-table thead tr {
+			background-color: #1c7cd0;
+			color: #ffffff;
+			text-align: left;
+		}
+
+		.styled-table th,
+		.styled-table td {
+			padding: 12px 15px;
+		}
+
+		.styled-table tbody tr {
+			border-bottom: 1px solid #dddddd;
+		}
+
+		.styled-table tbody tr:nth-of-type(even) {
+			background-color: #f3f3f3;
+		}
+
+		.styled-table tbody tr:last-of-type {
+			border-bottom: 2px solid #1c7cd0;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- 	test 1 -->
+	<div
+		class="conatiner flex-wrap p-6 bg-white relative pt-6 lg:pt-8 flex items-center justify-between text-slate-700 font-semibold text-sm leading-6 dark:text-slate-200">
+		<div>
+			<img class="fill-current mr-2 " width="200" height="150"
+				src="https://lh3.googleusercontent.com/dM0uA-uSApAnXw4sGmr3lUPJJjRNOzFc6Wku7BQQdYo13nAaZWDNE7WWEDvNxkVxHrBpub-EkvoTP9PIj8rywb6_8mLxVeCzlowrxhrxaXOe204bcBY8iAc0bNLcazsGnHuUYisY=w2400" />
+			<!-- <p class="mx-2 mt-2">...step towards excellence.</p> -->
+		</div>
+		<!-- navbar -->
+		<nav>
+			<div class=" md:flex items-center py-4 ">
+				<ul class="flex items-center space-x-8">
+					<li>
+						<a class="hover:text-pink-600 font-semibold text-xl" href="./index.html">Home</a>
+					</li>
+					<li>
+						<a href="./team.html" class="hover:text-pink-600 font-semibold text-xl">Team</a>
+					</li>
+					<li>
+						<a class="hover:text-pink-600  font-semibold text-xl" href="./project.html">Projects</a>
+					</li>
+					<li>
+						<a class="hover:text-pink-600  font-semibold text-xl" href="./gallary.html">Gallary</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<hr class="opacity-50">
+	<!-- div -->
+	<div class="d-flex container justify-content-center">
+		<div class=" my-5 mx-5">
+			<!-- table -->
+			<div class="container d-flex justify-content-center">
+				<table class="styled-table">
+					<thead>
+						<tr>
+							<!-- <th>Board no.</th> -->
+							<th>Lab / Class</th>
+							<th>Current Status</th>
+							<!-- <th>Launch page</th> -->
+							<!-- <th>Board no.</th> -->
+
+							<th> </th>
+
+							<th>Lab / Class</th>
+							<th>Current Status</th>
+							<!-- <th>Launch page</th> -->
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<!-- <td>Board <br>no.1</td> -->
+							<td>DL LAB</td>
+							<td><span id="DL">.....</span></td>
+							<td> </td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 1</a>
+							</td> -->
+
+							<!-- <td>Board <br>no.2</td> -->
+							<td>CG LAB</td>
+							<td><span id="CG">.....</span></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 2</a>
+							</td> -->
+						</tr>
+						<tr>
+							<!-- <td>Board <br>no.3</td> -->
+							<td>INT LAB</td>
+							<td><span id="INT">Not Available</span></td>
+							<td></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 3</a>
+							</td> -->
+
+							<!-- <td>Board <br>no.4</td> -->
+							<td>SL-1 LAB</td>
+							<td><span id="SL-1">Not Available</span></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 4</a>
+							</td> -->
+						</tr>
+						<tr>
+							<!-- <td>Board <br>no.5</td> -->
+							<td>SL-2 LAB</td>
+							<td><span id="SL-2">Not Available</span></td>
+							<td></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 5</a>
+							</td> -->
+
+							<!-- <td>Board <br>no.6</td> -->
+							<td>MP LAB</td>
+							<td><span id="MP">.....</span></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 9</a>
+							</td> -->
+						</tr>
+						<!-- <td>Board <br>no.7</td> -->
+						<td>CR-1</td>
+						<td><span id="CR-1">.....</span></td>
+						<td></td>
+						<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 6</a>
+							</td> -->
+
+						<!-- <td>Board <br>no.8</td> -->
+						<td>CR-2</td>
+						<td><span id="CR-2">.....</span></td>
+						<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 7</a>
+							</td> -->
+						<tr>
+							<!-- <td>Board <br>no.9</td> -->
+							<td>CR-3</td>
+							<td><span id="CR-3">.....</span></td>
+							<td></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 8</a>
+							</td> -->
+
+							<!-- <td>Board <br>no.10</td> -->
+							<td>HW LAB</td>
+							<td><span id="HW">.....</span></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 10</a>
+							</td> -->
+						</tr>
+						<tr>
+							<!-- <td>Board <br>no.11</td> -->
+							<td>SL-3 LAB</td>
+							<td><span id="SL-3">.....</span></td>
+							<td></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 11</a>
+							</td> -->
+
+							<!-- <td>Board <br>no.12</td> -->
+							<td>SL-4 LAB</td>
+							<td><span id="SL-4">.....</span></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 12</a>
+							</td> -->
+						</tr>
+						<tr>
+							<!-- <td>Board <br>no.13</td> -->
+							<td>CR-4</td>
+							<td><span id="CR-4">.....</span></td>
+							<td></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 13</a>
+							</td> -->
+
+							<!-- <td>Board <br>no.14</td> -->
+							<td>FPL LAB</td>
+							<td><span id="FPL">.....</span></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" href="./show_page.html">launch display 14</a>
+							</td> -->
+						</tr>
+						<tr>
+							<!-- <td>Board <br>no.15</td> -->
+							<td>PG LAB</td>
+							<td><span id="PG">.....</span></td>
+							<td></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" id="jstrigger">launch display 15</a>
+							</td> -->
+
+							<!-- <td>Board <br>no.16</td> -->
+							<td>Lang LAB 1</td>
+							<td><span id="LL-1">.....</span></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" id="jstrigger">launch display 16</a>
+							</td> -->
+						</tr>
+						<tr>
+							<!-- <td>Board <br>no.17</td> -->
+							<td>Lang LAB 2</td>
+							<td><span id="LL-2">.....</span></td>
+							<td></td>
+							<!-- <td>
+								<a type="button" class="px-3 py-2 lg:px-4 lg:py-3 bg-rose-600 text-white text-xs 
+																		font-semibold rounded hover:bg-sky-700 hover:text-white text-lg" id="jstrigger">launch display 17</a>
+							</td> -->
+						</tr>
+
+						<!-- and so on... -->
+					</tbody>
+
+				</table>
+
+			</div>
+			<br>
+			<div class=" d-flex justify-content-center">
+				<a id="edit" type="button"
+					class="px-3 py-2 lg:px-4 lg:py-3 bg-sky-700 text-white text-xs font-semibold rounded hover:bg-red-600 hover:text-white text-lg"
+					href="./login.html">
+					Edit the Schedule</a>
+			</div>
+			<!-- 			<div class=" container col-lg-7 my-5">
+				<label class="form-label ">
+					<strong>Common notice board</strong>
+				</label><br>
+				<p>(*this notice will be visible to over all display in the dept.)</p>
+				<br>
+				<textarea class="form-control" id="text" rows="3"></textarea>
+				<a id="submit" type="button"
+					class=" my-2 px-3 py-2 lg:px-4 lg:py-3 bg-pink-700 text-gray-200 text-xs font-semibold rounded hover:bg-sky-700 hover:text-white text-lg">
+					Display</a>
+			</div> -->
+		</div>
+	</div>
+	<br>
+
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- 	<script src="adjust.js"></script> -->
+	<script type="module" src="testing.js"></script>
+	<!-- 	<script>
+		function send(a) {
+			var value1 = "foo"+a;
+			var value2 = "bar";
+			var queryString = "?para1=" + value1 + "&para2=" + value2;
+			window.location.href = "show_page.html" + queryString;
+		}
+    // alert(document.getElementById('div1').innerHTML = a;)
+    alert(document.getElementById("PG").innerHTML+"hhh");
+	</script> -->
+
+	<!-- <script type="module" src="firebase.js"></script> -->
+</body>
+</head>
+
+</html>
